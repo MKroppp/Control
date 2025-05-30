@@ -44,13 +44,13 @@ Push notifications are sent using Firebase Cloud Messaging (FCM):
 The Android client is responsible for capturing the screen, sending screenshots to the backend, and displaying notifications when inappropriate content is detected.  
 
 ## Setup Instructions  
-1. Clone the repository and open it in Android Studio: `git clone https://github.com/MKroppp/Control.git`
-2. Open the project directory: `File` → `Open` → Navigate to the root of the project
-3. Important:
-   You may need to update the backend server URL in the `MainActivity.java` file to point to your running Flask server address.
-   Typically, look for a variable like:
-   `private static final String SERVER_URL = "http://<your-server-ip>:5000/upload";`
-   Replace `<your-server-ip>` with the actual IP or hostname where the backend is running.
+1. Clone the repository and open it in Android Studio: `git clone https://github.com/MKroppp/Control.git`  
+2. Open the project directory: `File` → `Open` → Navigate to the root of the project  
+3. Important:  
+   You may need to update the backend server URL in the `MainActivity.java` file to point to your running Flask server address.  
+   Typically, look for a variable like:  
+   `private static final String SERVER_URL = "http://<your-server-ip>:5000/upload";`  
+   Replace `<your-server-ip>` with the actual IP or hostname where the backend is running.  
 5. Connect your device or start an emulator.
 6. Build & run the app (`Shift + F10` or green "Play" button).
 
