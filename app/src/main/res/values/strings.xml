@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EmotionalControl</string>
+    <string name="accessibility_service_description">Сервис блокировки нежелательных сайтов</string>
+</resources>
