@@ -4,12 +4,12 @@
 3. detects inappropriate content (text/images)  
 4. sends notifications to parents via push notifications
 
-# Requirements  
+## Requirements  
 1. Android 10+ (API 29+)
 2. Permissions: FOREGROUND_SERVICE, SYSTEM_ALERT_WINDOW, INTERNET, WRITE_EXTERNAL_STORAGE (if needed), MEDIA_PROJECTION (requested via intent)  
 3. Fully supports Android 10–15
 
-# Server Side  
+## Server Side  
 The server can be placed anywhere you want – VPS, local machine, or cloud – as long as Python 3.10+ is available.  
 
 ### Setup & Run  
