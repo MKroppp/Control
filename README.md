@@ -18,10 +18,11 @@
 
 # Server Side  
 The server can be placed anywhere you want – VPS, local machine, or cloud – as long as Python 3.10+ is available.  
+
 ## Features:  
 1. Accepts screenshots from Android app
 2. Uses EasyOCR to extract text
-3. Classifies text using distiluse-base-multilingual-cased-v1 model
+3. Classifies text using `distiluse-base-multilingual-cased-v1` model
 4. Sends push notifications via Firebase Cloud Messaging (FCM)
 
 
