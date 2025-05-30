@@ -35,7 +35,7 @@ The server can be placed anywhere you want – VPS, local machine, or cloud – 
 
 ### Firebase Integration  
 Push notifications are sent using Firebase Cloud Messaging (FCM):
-1. Create a project at [Firebase Console] (https://console.firebase.google.com)  
+1. Create a project at [Firebase Console](https://console.firebase.google.com)  
 2. Generate and download `serviceAccountKey.json`
 3. Rename it to `firebase_key.json`
 4. Place it into the `server/` folder
