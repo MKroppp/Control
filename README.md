@@ -25,7 +25,5 @@ The server can be placed anywhere you want – VPS, local machine, or cloud – 
 3. Classifies text using `distiluse-base-multilingual-cased-v1` model
 4. Sends push notifications via Firebase Cloud Messaging (FCM)
 
+[Download text model](https://drive.google.com/file/d/1vAOGjnRNflSSvwNEAD-oYNpOhQBO_IgR/view?usp=drive_link) and upload it to the server folder.  
 
-
-
-https://drive.google.com/file/d/1vAOGjnRNflSSvwNEAD-oYNpOhQBO_IgR/view?usp=drive_link
