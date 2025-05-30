@@ -49,17 +49,17 @@ The Android client is responsible for capturing the screen, sending screenshots 
 3. Important:  
    You may need to update the backend server URL in the `MainActivity.java` file to point to your running Flask server address.  
    Typically, look for a variable like:  
-   `private static final String SERVER_URL = "http://<your-server-ip>:5000/upload";`  
+   `URL url = new URL("http://<your-server-ip>:5000/upload");`  
    Replace `<your-server-ip>` with the actual IP or hostname where the backend is running.  
-5. Connect your device or start an emulator.
-6. Build & run the app (`Shift + F10` or green "Play" button).
+5. Connect your device or start an emulator.  
+6. Build & run the app (`Shift + F10` or green "Play" button).  
 
 ## How It Works  
-1. On app start, it asks for permission to capture the screen.
-2. Once granted, a foreground service starts and captures the screen every 3 seconds.
-3. Screenshots are sent via HTTP POST to the backend Flask server (`http://<your-ip>:5000/upload`).
-4. The server processes the screenshot (OCR + ML) and sends a Firebase push notification if inappropriate content is detected.
-5. The app receives and shows the notification.
+1. On app start, it asks for permission to capture the screen.  
+2. Once granted, a foreground service starts and captures the screen every 3 seconds.  
+3. Screenshots are sent via HTTP POST to the backend Flask server (`http://<your-ip>:5000/upload`).  
+4. The server processes the screenshot (OCR + ML) and sends a Firebase push notification if inappropriate content is detected.  
+5. The app receives and shows the notification.  
 
 
 
